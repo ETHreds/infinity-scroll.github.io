@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@300&family=Raleway&family=Shizuru&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 html {
   box-sizing: border-box;
@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Rubik Moonrocks';
 }
 
   h1{
@@ -38,7 +38,7 @@ body {
   }
 
 
-/* Image container */
+/* Image container*/
 .img_container{
   margin: 10px 30%;
 }
@@ -46,16 +46,30 @@ body {
 .img_container img{
   width: 100%;
   margin-top: 5px;
-}
+} 
 
 /* Media query for large smartphone */
 @media screen and (max-width: 600px) {
 
   h1{
-  font-size: 30px;
+  font-size: 20px;
   }
   .img_container{
     margin: 10px;
   }
   
-}
+} 
+
+
+/* Media query for tablets*/
+@media screen and (max-width: 1000px) {
+
+  h1{
+    font-size: 25px;
+  }
+  
+  .img_container{
+    margin: 10px 20%;
+  }
+  
+} 
