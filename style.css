@@ -52,24 +52,10 @@ body {
 @media screen and (max-width: 600px) {
 
   h1{
-  font-size: 20px;
+  font-size: 30px;
   }
   .img_container{
     margin: 10px;
-  }
-  
-} 
-
-
-/* Media query for tablets*/
-@media screen and (max-width: 1000px) {
-
-  h1{
-    font-size: 25px;
-  }
-  
-  .img_container{
-    margin: 10px 20%;
   }
   
 } 
